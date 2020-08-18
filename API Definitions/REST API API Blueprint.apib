@@ -1,0 +1,11852 @@
+FORMAT: 1A
+HOST: https://host/
+
+# REST API
+
+This is a sample definition of the Oracle ERP Cloud REST API.
+
+The views expressed here are my own and do not necessarily reflect the views of Oracle.
+
+# Group Accounting Calendars List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/accountingCalendarsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/accountingCalendarsLOV/{CalendarId}
+
++ Parameters
+
+    + CalendarId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## Group Accounting Period Status List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/accountingPeriodStatusLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/accountingPeriodStatusLOV/{accountingPeriodStatusLOVUniqID}
+
++ Parameters
+
+    + accountingPeriodStatusLOVUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Accounting Periods List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/accountingPeriodsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/accountingPeriodsLOV/{accountingPeriodsLOVUniqID}
+
++ Parameters
+
+    + accountingPeriodsLOVUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Asset Books List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/fixedAssetBooksLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/fixedAssetBooksLOV/{BookTypeCode}
+
++ Parameters
+
+    + BookTypeCode
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Account User Rules
+
+## /fscmRestApi/resources/11.13.18.05/bankAccountUserRules
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/bankAccountUserRules/{CountrySpecificUIRuleId}
+
++ Parameters
+
+    + CountrySpecificUIRuleId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/cashBankAccountsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/cashBankAccountsLOV/{BankAccountId}
+
++ Parameters
+
+    + BankAccountId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/cashBankAccountDFF
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/cashBankAccountDFF/{BankAccountId2}
+
++ Parameters
+
+    + BankAccountId
+
+    + BankAccountId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/cashBankAccountGlobalDFF
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/cashBankAccountGlobalDFF/{BankAccountId2}
+
++ Parameters
+
+    + BankAccountId
+
+    + BankAccountId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Grants
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountGrants
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountGrants/{GrantId}
+
++ Parameters
+
+    + BankAccountId
+
+    + GrantId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Payment Documents
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountPaymentDocuments
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountPaymentDocuments/{PaymentDocumentId}
+
++ Parameters
+
+    + BankAccountId
+
+    + PaymentDocumentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Payment Documents/Bank Account Checkbooks
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountPaymentDocuments/{PaymentDocumentId}/child/bankAccountCheckbooks
+
++ Parameters
+
+    + BankAccountId
+
+    + PaymentDocumentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountPaymentDocuments/{PaymentDocumentId}/child/bankAccountCheckbooks/{CheckbookId}
+
++ Parameters
+
+    + BankAccountId
+
+    + PaymentDocumentId
+
+    + CheckbookId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Transaction Creation Rules
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountTransactionCreationRules
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountTransactionCreationRules/{AccountTrxCreationRuleId}
+
++ Parameters
+
+    + BankAccountId
+
+    + AccountTrxCreationRuleId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Uses
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountUses
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountUses/{bankAccountUsesUniqID}
+
++ Parameters
+
+    + BankAccountId
+
+    + bankAccountUsesUniqID
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Accounts/Bank Account Uses/Bank Account Payment Document Categories
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountUses/{bankAccountUsesUniqID}/child/bankAccountPaymentDocumentCategories
+
++ Parameters
+
+    + BankAccountId
+
+    + bankAccountUsesUniqID
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankAccounts/{BankAccountId}/child/bankAccountUses/{bankAccountUsesUniqID}/child/bankAccountPaymentDocumentCategories/{ApPmDocumentCategoryId}
+
++ Parameters
+
+    + BankAccountId
+
+    + bankAccountUsesUniqID
+
+    + ApPmDocumentCategoryId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Branches
+
+## /fscmRestApi/resources/11.13.18.05/cashBankBranches
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBankBranches/{BranchPartyId}
+
++ Parameters
+
+    + BranchPartyId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bank Branches List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/cashBankBranchesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/cashBankBranchesLOV/{BranchPartyId}
+
++ Parameters
+
+    + BranchPartyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Banks
+
+## /fscmRestApi/resources/11.13.18.05/cashBanks
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashBanks/{BankPartyId}
+
++ Parameters
+
+    + BankPartyId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Banks List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/cashBanksLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/cashBanksLOV/{BankPartyId}
+
++ Parameters
+
+    + BankPartyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Bill Management Users
+
+## /fscmRestApi/resources/11.13.18.05/billManagementUsers
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/billManagementUsers/{BillManagementUserRegistrationId}
+
++ Parameters
+
+    + BillManagementUserRegistrationId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Brazilian Fiscal Documents
+
+## GET /fscmRestApi/resources/11.13.18.05/brazilianFiscalDocuments
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/brazilianFiscalDocuments/{DocumentRelationId}
+
++ Parameters
+
+    + DocumentRelationId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Calendar Types List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesCalendarTypesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesCalendarTypesLOV/{CalendarName}
+
++ Parameters
+
+    + CalendarName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Collection Promises
+
+## /fscmRestApi/resources/11.13.18.05/collectionPromises
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/collectionPromises/{PromiseDetailId}
+
++ Parameters
+
+    + PromiseDetailId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Collection Promises/Collection Promises Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/collectionPromises/{PromiseDetailId}/child/collectionPromiseDFF
+
++ Parameters
+
+    + PromiseDetailId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/collectionPromises/{PromiseDetailId}/child/collectionPromiseDFF/{PromiseDetailId2}
+
++ Parameters
+
+    + PromiseDetailId
+
+    + PromiseDetailId2
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Collections Strategies
+
+## /fscmRestApi/resources/11.13.18.05/collectionStrategies
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/collectionStrategies/{StrategyId}
+
++ Parameters
+
+    + StrategyId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Collections Strategies/Strategy Template Tasks
+
+## GET /fscmRestApi/resources/11.13.18.05/collectionStrategies/{StrategyId}/child/strategyTemplateTasks
+
++ Parameters
+
+    + StrategyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/collectionStrategies/{StrategyId}/child/strategyTemplateTasks/{TemplateTaskId}
+
++ Parameters
+
+    + StrategyId
+
+    + TemplateTaskId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Collections Strategies/Tasks
+
+## /fscmRestApi/resources/11.13.18.05/collectionStrategies/{StrategyId}/child/strategyExecutionTasks
+
++ Parameters
+
+    + StrategyId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/collectionStrategies/{StrategyId}/child/strategyExecutionTasks/{WorkItemId}
+
++ Parameters
+
+    + StrategyId
+
+    + WorkItemId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Collections Strategies/User Tasks
+
+## /fscmRestApi/resources/11.13.18.05/collectionStrategies/{StrategyId}/child/strategyUserTasks
+
++ Parameters
+
+    + StrategyId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/collectionStrategies/{StrategyId}/child/strategyUserTasks/{UserItemId}
+
++ Parameters
+
+    + StrategyId
+
+    + UserItemId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Currency Conversion Types List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/currencyConversionTypesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/currencyConversionTypesLOV/{ConversionTypeId}
+
++ Parameters
+
+    + ConversionTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Currency Rates
+
+## GET /fscmRestApi/resources/11.13.18.05/currencyRates
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/currencyRates/{currencyRatesUniqID}
+
++ Parameters
+
+    + currencyRatesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Data Access Set Ledgers List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/dataAccessSetLedgersLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/dataAccessSetLedgersLOV/{LedgerId}
+
++ Parameters
+
+    + LedgerId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Data Access Sets List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/dataAccessSetsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/dataAccessSetsLOV/{AccessSetId}
+
++ Parameters
+
+    + AccessSetId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Data Security for Users
+
+## /fscmRestApi/resources/11.13.18.05/dataSecurities
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/dataSecurities/{UserRoleDataAssignmentId}
+
++ Parameters
+
+    + UserRoleDataAssignmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Debit Authorizations
+
+## /fscmRestApi/resources/11.13.18.05/debitAuthorizations
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/debitAuthorizations/{debitAuthorizationsUniqID}
+
++ Parameters
+
+    + debitAuthorizationsUniqID
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Debit Authorizations/Debit Authorization Versions
+
+## GET /fscmRestApi/resources/11.13.18.05/debitAuthorizations/{debitAuthorizationsUniqID}/child/debitAuthorizationVersions
+
++ Parameters
+
+    + debitAuthorizationsUniqID
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/debitAuthorizations/{debitAuthorizationsUniqID}/child/debitAuthorizationVersions/{debitAuthorizationVersionsUniqID}
+
++ Parameters
+
+    + debitAuthorizationsUniqID
+
+    + debitAuthorizationVersionsUniqID
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Distribution Sets List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesDistributionSetsLOV
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesDistributionSetsLOV/{payablesDistributionSetsLOVUniqID}
+
++ Parameters
+
+    + payablesDistributionSetsLOVUniqID
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Document Sequence Derivations
+
+## /fscmRestApi/resources/11.13.18.05/localizationDocumentSequenceDerivations
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/localizationDocumentSequenceDerivations/{DocumentSequenceDerivationId}
+
++ Parameters
+
+    + DocumentSequenceDerivationId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group ERP Business Events
+
+## GET /fscmRestApi/resources/11.13.18.05/erpBusinessEvents
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/erpBusinessEvents/{ErpBusinessEventId}
+
++ Parameters
+
+    + ErpBusinessEventId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group ERP Integrations
+
+## /fscmRestApi/resources/11.13.18.05/erpintegrations
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/erpintegrations/{OperationName}
+
++ Parameters
+
+    + OperationName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Early Payment Offers
+
+## /fscmRestApi/resources/11.13.18.05/buyerInitiatedEarlyPaymentOffers
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/buyerInitiatedEarlyPaymentOffers/{discountOfferId}
+
++ Parameters
+
+    + discountOfferId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Early Payment Offers/Early Payment Offer Assignments
+
+## /fscmRestApi/resources/11.13.18.05/buyerInitiatedEarlyPaymentOffers/{discountOfferId}/child/assignments
+
++ Parameters
+
+    + discountOfferId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/buyerInitiatedEarlyPaymentOffers/{discountOfferId}/child/assignments/{offerAssignmentId}
+
++ Parameters
+
+    + discountOfferId
+
+    + offerAssignmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Early Payment Offers/Early Payment Offer Assignments/Early Payment Offers Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/buyerInitiatedEarlyPaymentOffers/{discountOfferId}/child/assignments/{offerAssignmentId}/child/assignmentDff
+
++ Parameters
+
+    + discountOfferId
+
+    + offerAssignmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/buyerInitiatedEarlyPaymentOffers/{discountOfferId}/child/assignments/{offerAssignmentId}/child/assignmentDff/{OfferAssignmentId}
+
++ Parameters
+
+    + discountOfferId
+
+    + offerAssignmentId
+
+    + OfferAssignmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Encumbrance Types List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/encumbranceTypesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/encumbranceTypesLOV/{EncumbranceTypeId}
+
++ Parameters
+
+    + EncumbranceTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Accommodations Polices
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseAccommodationsPolicies
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseAccommodationsPolicies/{AccommodationsPolicyId}
+
++ Parameters
+
+    + AccommodationsPolicyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Accommodations Polices/Expense Accommodations Policy Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseAccommodationsPolicies/{AccommodationsPolicyId}/child/expenseAccommodationsPolicyLines
+
++ Parameters
+
+    + AccommodationsPolicyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseAccommodationsPolicies/{AccommodationsPolicyId}/child/expenseAccommodationsPolicyLines/{PolicyLineId}
+
++ Parameters
+
+    + AccommodationsPolicyId
+
+    + PolicyLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Cash Advances
+
+## /fscmRestApi/resources/11.13.18.05/expenseCashAdvances
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseCashAdvances/{CashAdvanceId}
+
++ Parameters
+
+    + CashAdvanceId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Cash Advances/Cash Advance Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/expenseCashAdvances/{CashAdvanceId}/child/CashAdvanceDff
+
++ Parameters
+
+    + CashAdvanceId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseCashAdvances/{CashAdvanceId}/child/CashAdvanceDff/{CashAdvanceId2}
+
++ Parameters
+
+    + CashAdvanceId
+
+    + CashAdvanceId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Conversion Rate Options
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseConversionRateOptions
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseConversionRateOptions/{ConversionRateId}
+
++ Parameters
+
+    + ConversionRateId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Conversion Rate Options/Conversion Rate Tolerances
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseConversionRateOptions/{ConversionRateId}/child/conversionRateTolerances
+
++ Parameters
+
+    + ConversionRateId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseConversionRateOptions/{ConversionRateId}/child/conversionRateTolerances/{ConversionRateToleranceId}
+
++ Parameters
+
+    + ConversionRateId
+
+    + ConversionRateToleranceId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Credit Card Transactions
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseCreditCardTransactions
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseCreditCardTransactions/{CreditCardTrxnId}
+
++ Parameters
+
+    + CreditCardTrxnId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Delegations
+
+## /fscmRestApi/resources/11.13.18.05/expenseDelegations
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseDelegations/{DelegationId}
+
++ Parameters
+
+    + DelegationId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Descriptive Flexfield Contexts
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseDffContexts
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseDffContexts/{RowIdentifier}
+
++ Parameters
+
+    + RowIdentifier
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Descriptive Flexfield Segments
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseDffSegments
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseDffSegments/{RowIdentifier}
+
++ Parameters
+
+    + RowIdentifier
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Distributions
+
+## /fscmRestApi/resources/11.13.18.05/expenseDistributions
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseDistributions/{ExpenseDistId}
+
++ Parameters
+
+    + ExpenseDistId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Distributions/Project Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/expenseDistributions/{ExpenseDistId}/child/PJCDFF
+
++ Parameters
+
+    + ExpenseDistId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseDistributions/{ExpenseDistId}/child/PJCDFF/{ExpenseDistId2}
+
++ Parameters
+
+    + ExpenseDistId
+
+    + ExpenseDistId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Locations
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseLocations
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseLocations/{GeographyId}
+
++ Parameters
+
+    + GeographyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Meals Policies
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMealsPolicies
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMealsPolicies/{MealsPolicyId}
+
++ Parameters
+
+    + MealsPolicyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Meals Policies/Expense Meals Policy Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMealsPolicies/{MealsPolicyId}/child/expenseMealsPolicyLines
+
++ Parameters
+
+    + MealsPolicyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMealsPolicies/{MealsPolicyId}/child/expenseMealsPolicyLines/{PolicyLineId}
+
++ Parameters
+
+    + MealsPolicyId
+
+    + PolicyLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Mileage Policies
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMileagePolicies
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMileagePolicies/{MileagePolicyId}
+
++ Parameters
+
+    + MileagePolicyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Mileage Policies/Expense Mileage Policy Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMileagePolicies/{MileagePolicyId}/child/expenseMileagePolicyLines
+
++ Parameters
+
+    + MileagePolicyId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseMileagePolicies/{MileagePolicyId}/child/expenseMileagePolicyLines/{PolicyLineId}
+
++ Parameters
+
+    + MileagePolicyId
+
+    + PolicyLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Preferences
+
+## /fscmRestApi/resources/11.13.18.05/expensePreferences
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expensePreferences/{PersonId}
+
++ Parameters
+
+    + PersonId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Preferred Types
+
+## GET /fscmRestApi/resources/11.13.18.05/expensePreferredTypes
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expensePreferredTypes/{RecordId}
+
++ Parameters
+
+    + RecordId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Profile Attributes
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseProfileAttributes
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseProfileAttributes/{PersonId}
+
++ Parameters
+
+    + PersonId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}
+
++ Parameters
+
+    + ExpenseReportId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Attachments
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Attachments
+
++ Parameters
+
+    + ExpenseReportId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Attachments/{AttachedDocumentId}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + AttachedDocumentId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expense Notes
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/expenseNotes
+
++ Parameters
+
+    + ExpenseReportId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/expenseNotes/{ExpenseReportProcessingId}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseReportProcessingId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expense Report Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/ExpenseReportDff
+
++ Parameters
+
+    + ExpenseReportId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/ExpenseReportDff/{ExpenseReportId2}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseReportId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expense Report Payments
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/ExpensePayment
+
++ Parameters
+
+    + ExpenseReportId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/ExpensePayment/{ExpenseReportId2}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseReportId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense
+
++ Parameters
+
+    + ExpenseReportId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Attachments
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/Attachments
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/Attachments/{AttachedDocumentId}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + AttachedDocumentId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Expense Attendees
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseAttendee
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseAttendee/{ExpenseAttendeeId}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + ExpenseAttendeeId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Expense Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseDff
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseDff/{ExpenseId2}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + ExpenseId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Expense Distributions
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseDistribution
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseDistribution/{ExpenseDistId}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + ExpenseDistId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Expense Distributions/Projects Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseDistribution/{ExpenseDistId}/child/PJCDFF
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + ExpenseDistId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseDistribution/{ExpenseDistId}/child/PJCDFF/{ExpenseDistId2}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + ExpenseDistId
+
+    + ExpenseDistId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Expense Errors
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/expenseErrors
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/expenseErrors/{ErrorSequence}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + ErrorSequence
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Expense Itemizations
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseItemization
+
++ Parameters
+
+   + ExpenseReportId
+
+   + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/ExpenseItemization/{ExpenseId2}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + ExpenseId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Reports/Expenses/Matched Expenses
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/matchedExpenses
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenseReports/{ExpenseReportId}/child/Expense/{ExpenseId}/child/matchedExpenses/{MatchReference}
+
++ Parameters
+
+    + ExpenseReportId
+
+    + ExpenseId
+
+    + MatchReference
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Templates
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}
+
++ Parameters
+
+    + ExpenseTemplateId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Templates/Expense Types
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes
+
++ Parameters
+
+    + ExpenseTemplateId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes/{ExpenseTypeId}
+
++ Parameters
+
+    + ExpenseTemplateId
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Templates/Expense Types/Itemized Expense Types
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes/{ExpenseTypeId}/child/itemizedExpenseTypes
+
++ Parameters
+
+    + ExpenseTemplateId
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes/{ExpenseTypeId}/child/itemizedExpenseTypes/{itemizedExpenseTypesUniqID}
+
++ Parameters
+
+    + ExpenseTemplateId
+
+    + ExpenseTypeId
+
+    + itemizedExpenseTypesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Templates/Expense Types/Preferred Agency Lists
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes/{ExpenseTypeId}/child/preferredAgencyLists
+
++ Parameters
+
+    + ExpenseTemplateId
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes/{ExpenseTypeId}/child/preferredAgencyLists/{preferredAgencyListsUniqID}
+
++ Parameters
+
+    + ExpenseTemplateId
+
+    + ExpenseTypeId
+
+    + preferredAgencyListsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Templates/Expense Types/Preferred Merchant Lists
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes/{ExpenseTypeId}/child/preferredMerchantLists
+
++ Parameters
+
+    + ExpenseTemplateId
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/expenseTypes/{ExpenseTypeId}/child/preferredMerchantLists/{preferredMerchantListsUniqID}
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Templates/Mobile Expense Types
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/mobileExpenseTypes
+
++ Parameters
+
+    + ExpenseTemplateId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTemplates/{ExpenseTemplateId}/child/mobileExpenseTypes/{ExpenseTypeId}
+
++ Parameters
+
+    + ExpenseTemplateId
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Types
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes/{ExpenseTypeId}
+
++ Parameters
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Types/Expenses Type Itemize
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes/{ExpenseTypeId}/child/itemizedExpenseTypes
+
++ Parameters
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes/{ExpenseTypeId}/child/itemizedExpenseTypes/{itemizedExpenseTypesUniqID}
+
++ Parameters
+
+    + ExpenseTypeId
+
+    + itemizedExpenseTypesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Types/Preferred Agency Lists
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes/{ExpenseTypeId}/child/preferredAgencyLists
+
++ Parameters
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes/{ExpenseTypeId}/child/preferredAgencyLists/{preferredAgencyListsUniqID}
+
++ Parameters
+
+    + ExpenseTypeId
+
+    + preferredAgencyListsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expense Types/Preferred Merchant Lists
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes/{ExpenseTypeId}/child/preferredMerchantLists
+
++ Parameters
+
+    + ExpenseTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/expenseTypes/{ExpenseTypeId}/child/preferredMerchantLists/{preferredMerchantListsUniqID}
+
++ Parameters
+
+    + ExpenseTypeId
+
+    + preferredMerchantListsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses
+
+## /fscmRestApi/resources/11.13.18.05/expenses
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Attachments
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/Attachments
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/Attachments/{AttachedDocumentId}
+
++ Parameters
+
+    + ExpenseId
+
+    + AttachedDocumentId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Expense Attendees
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseAttendee
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseAttendee/{ExpenseAttendeeId}
+
++ Parameters
+
+    + ExpenseId
+
+    + ExpenseAttendeeId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Expense Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseDff
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseDff/{ExpenseId2}
+
++ Parameters
+
+    + ExpenseId
+
+    + ExpenseId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Expense Distributions
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseDistribution
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseDistribution/{ExpenseDistId}
+
++ Parameters
+
+    + ExpenseId
+
+    + ExpenseDistId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Expense Distributions/Project Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseDistribution/{ExpenseDistId}/child/PJCDFF
+
++ Parameters
+
+    + ExpenseId
+
+    + ExpenseDistId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseDistribution/{ExpenseDistId}/child/PJCDFF/{ExpenseDistId2}
+
++ Parameters
+
+    + ExpenseId
+
+    + ExpenseDistId
+
+    + ExpenseDistId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Expense Errors
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/expenseErrors
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/expenseErrors/{ErrorSequence}
+
++ Parameters
+
+    + ExpenseId
+
+    + ErrorSequence
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Expense Itemizations
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseItemization
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/ExpenseItemization/{ExpenseId2}
+
++ Parameters
+
+    + ExpenseId
+
+    + ExpenseId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Expenses/Matched Expenses
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/matchedExpenses
+
++ Parameters
+
+    + ExpenseId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/expenses/{ExpenseId}/child/matchedExpenses/{MatchReference}
+
++ Parameters
+
+    + ExpenseId
+
+    + MatchReference
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group External Bank Accounts
+
+## /fscmRestApi/resources/11.13.18.05/externalBankAccounts
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/externalBankAccounts/{BankAccountId}
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group External Bank Accounts/Account Owners
+
+## /fscmRestApi/resources/11.13.18.05/externalBankAccounts/{BankAccountId}/child/accountOwners
+
++ Parameters
+
+    + BankAccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/externalBankAccounts/{BankAccountId}/child/accountOwners/{AccountOwnerId}
+
++ Parameters
+
+    + BankAccountId
+
+    + AccountOwnerId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group External Cash Transactions
+
+## /fscmRestApi/resources/11.13.18.05/cashExternalTransactions
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashExternalTransactions/{ExternalTransactionId}
+
++ Parameters
+
+    + ExternalTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group External Cash Transactions/Attachments
+
+## /fscmRestApi/resources/11.13.18.05/cashExternalTransactions/{ExternalTransactionId}/child/attachments
+
++ Parameters
+
+    + ExternalTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashExternalTransactions/{ExternalTransactionId}/child/attachments/{AttachedDocumentId}
+
++ Parameters
+
+    + ExternalTransactionId
+
+    + AttachedDocumentId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group External Cash Transactions/Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/cashExternalTransactions/{ExternalTransactionId}/child/cashExternalTransactionDFF
+
++ Parameters
+
+    + ExternalTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/cashExternalTransactions/{ExternalTransactionId}/child/cashExternalTransactionDFF/{ExternalTransactionId2}
+
++ Parameters
+
+    + ExternalTransactionId
+
+    + ExternalTransactionId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group External Payees
+
+## /fscmRestApi/resources/11.13.18.05/paymentsExternalPayees
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/paymentsExternalPayees/{PayeeId}
+
++ Parameters
+
+    + PayeeId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group External Payees/External Party Payment Methods
+
+## /fscmRestApi/resources/11.13.18.05/paymentsExternalPayees/{PayeeId}/child/externalPartyPaymentMethods
+
++ Parameters
+
+    + PayeeId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/paymentsExternalPayees/{PayeeId}/child/externalPartyPaymentMethods/{ExternalPartyPaymentMethodsId}
+
++ Parameters
+
+    + PayeeId
+
+    + ExternalPartyPaymentMethodsId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Federal Agency Location Codes
+
+## /fscmRestApi/resources/11.13.18.05/fedAgencyLocationCodes
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/fedAgencyLocationCodes/{AgencyLocationCodeId}
+
++ Parameters
+
+    + AgencyLocationCodeId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Federal Agency Location Codes/Federal Agency Location Codes Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/fedAgencyLocationCodes/{AgencyLocationCodeId}/child/fedAgencyLocationCodeDFF
+
++ Parameters
+
+    + AgencyLocationCodeId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/fedAgencyLocationCodes/{AgencyLocationCodeId}/child/fedAgencyLocationCodeDFF/{AgencyLocationCodeId2}
+
++ Parameters
+
+    + AgencyLocationCodeId
+
+    + AgencyLocationCodeId2
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Federal USSGL Accounts
+
+## /fscmRestApi/resources/11.13.18.05/fedUSSGLAccounts
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/fedUSSGLAccounts/{AccountId}
+
++ Parameters
+
+    + AccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Federal USSGL Accounts/Federal USSGL Accounts Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/fedUSSGLAccounts/{AccountId}/child/fedUSSGLAccountDFF
+
++ Parameters
+
+    + AccountId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/fedUSSGLAccounts/{AccountId}/child/fedUSSGLAccountDFF/{UssglAccountId}
+
++ Parameters
+
+    + AccountId
+
+    + UssglAccountId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Financials Business Units List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV/{BusinessUnitId}
+
++ Parameters
+
+    + BusinessUnitId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Income Tax Regions List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxRegionsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxRegionsLOV/{RegionShortName}
+
++ Parameters
+
+    + RegionShortName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Income Tax Types
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxTypes
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxTypes/{incomeTaxType}
+
++ Parameters
+
+    + incomeTaxType
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Income Tax Types List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxTypesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxTypesLOV/{IncomeTaxType}
+
++ Parameters
+
+    + IncomeTaxType
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Input Tax Classifications List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/inputTaxClassificationsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/inputTaxClassificationsLOV/{inputTaxClassificationsLOVUniqID}
+
++ Parameters
+
+    + inputTaxClassificationsLOVUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Instrument Assignments
+
+## /fscmRestApi/resources/11.13.18.05/instrumentAssignments
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/instrumentAssignments/{PaymentInstrumentAssignmentId}
+
++ Parameters
+
+    + PaymentInstrumentAssignmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Intercompany Organizations List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/intercompanyOrganizationsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/intercompanyOrganizationsLOV/{IntercoOrgId}
+
++ Parameters
+
+    + IntercoOrgId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Intercompany Transaction Types List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/intercompanyTransactionTypesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/intercompanyTransactionTypesLOV/{TrxTypeId}
+
++ Parameters
+
+    + TrxTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoice Holds
+
+## /fscmRestApi/resources/11.13.18.05/invoiceHolds
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoiceHolds/{HoldId}
+
++ Parameters
+
+    + HoldId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoice Holds List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceHoldsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceHoldsLOV/{HoldLookupCode}
+
++ Parameters
+
+    + HoldLookupCode
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoice Holds/Invoice Holds Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoiceHolds/{HoldId}/child/invoiceHoldDff
+
++ Parameters
+
+    + HoldId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoiceHolds/{HoldId}/child/invoiceHoldDff/{HoldId2}
+
++ Parameters
+
+    + HoldId
+
+    + HoldId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoice Tolerances
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceTolerances
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceTolerances/{toleranceId}
+
++ Parameters
+
+    + toleranceId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoice Tolerances List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceTolerancesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceTolerancesLOV/{payablesInvoiceTolerancesLOVUniqID}
+
++ Parameters
+
+    + payablesInvoiceTolerancesLOVUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices
+
+## /fscmRestApi/resources/11.13.18.05/invoices
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}
+
++ Parameters
+
+    + InvoiceId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Attachments
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/attachments
+
++ Parameters
+
+    + InvoiceId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/attachments/{attachmentsUniqID}
+
++ Parmaeters
+
+    + InvoiceId
+
+    + attachmentsUniqID
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Installments
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceInstallments
+
++ Parameters
+
+    + InvoiceId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceInstallments/{InstallmentNumber}
+
++ Parameters
+
+    + InvoiceId
+
+    + InstallmentNumber
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Installments/Invoice Installments Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceInstallments/{InstallmentNumber}/child/invoiceInstallmentDff
+
++ Parameters
+
+    + InvoiceId
+
+    + InstallmentNumber
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceInstallments/{InstallmentNumber}/child/invoiceInstallmentDff/{invoiceInstallmentDffUniqID}
+
++ Parameters
+
+    + InvoiceId
+
+    + InstallmentNumber
+
+    + invoiceInstallmentDffUniqID
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Installments/Invoice Installments Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceInstallments/{InstallmentNumber}/child/invoiceInstallmentGdf
+
++ Parameters
+
+    + InvoiceId
+
+    + InstallmentNumber
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceInstallments/{InstallmentNumber}/child/invoiceInstallmentGdf/{invoiceInstallmentGdfUniqID}
+
++ Parameters
+
+    + InvoiceId
+
+    + InstallmentNumber
+
+    + invoiceInstallmentGdfUniqID
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Lines
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines
+
++ Parameters
+
+    + InvoiceId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Lines/Invoice Distributions
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceDistributions
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceDistributions/{InvoiceDistributionId}
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+    + InvoiceDistributionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Lines/Invoice Distributions/Invoice Distributions Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceDistributions/{InvoiceDistributionId}/child/invoiceDistributionDff
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+    + InvoiceDistributionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceDistributions/{InvoiceDistributionId}/child/invoiceDistributionDff/{InvoiceDistributionId2}
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+    + InvoiceDistributionId
+
+    + InvoiceDistributionId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Lines/Invoice Distributions/Invoice Distributions Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceDistributions/{InvoiceDistributionId}/child/invoiceDistributionGdf
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+    + InvoiceDistributionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceDistributions/{InvoiceDistributionId}/child/invoiceDistributionGdf/{InvoiceDistributionId2}
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+    + InvoiceDistributionId
+
+    + InvoiceDistributionId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Lines/Invoice Lines Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceLineDff
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceLineDff/{invoiceLineDffUniqID}
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+    + invoiceLineDffUniqID
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoice Lines/Invoice Lines Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceLineGdf
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceLines/{LineNumber}/child/invoiceLineGdf/{invoiceLineGdfUniqID}
+
++ Parameters
+
+    + InvoiceId
+
+    + LineNumber
+
+    + invoiceLineGdfUniqID
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoices Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceDff
+
++ Parameters
+
+    + InvoiceId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceDff/{InvoiceId2}
+
++ Parameters
+
+    + InvoiceId
+
+    + InvoiceId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Invoices/Invoices Global Descriptive Flexfields
+
+### /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceGdf
+
++ Parameters
+
+    + InvoiceId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### /fscmRestApi/resources/11.13.18.05/invoices/{InvoiceId}/child/invoiceGdf/{InvoiceId2}
+
++ Parameters
+
+    + InvoiceId
+
+    + InvoiceId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}
+
++ Parameters
+
+    + JeBatchId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Action Logs
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalActionLogs
+
++ Parameters
+
+    + JeBatchId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalActionLogs/{ActionDate}
+
++ Parameters
+
+    + JeBatchId
+
+    + ActionDate
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Attachments
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/batchAttachment
+
++ Parameters
+
+    + JeBatchId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/batchAttachment/{batchAttachmentUniqID}
+
++ Parameters
+
+    + JeBatchId
+
+    + batchAttachmentUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Descriptive Flexfields
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalBatchDFF
+
++ Parameters
+
+    + JeBatchId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalBatchDFF/{JeBatchId2}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeBatchId2
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Errors
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalErrors
+
++ Parameters
+
+    + JeBatchId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalErrors/{journalErrorsUniqID}
+
++ Parameters
+
+    + JeBatchId
+
+    + journalErrorsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders
+
++ Parameters
+
+    + JeBatchId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers/Attachments
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalAttachment
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalAttachment/{journalAttachmentUniqID}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + journalAttachmentUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers/Descriptive Flexfields
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalDFF
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalDFF/{JeHeaderId2}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeHeaderId2
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers/Global Descriptive Flexfields
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalGDF
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalGDF/{JeHeaderId2}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeHeaderId2
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers/Journal Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines/{JeLineNumber}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeLineNumber
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers/Journal Lines/Captured Information Descriptive Flexfields
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines/{JeLineNumber}/child/capturedInformationDFF
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeLineNumber
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines/{JeLineNumber}/child/capturedInformationDFF/{capturedInformationDFFUniqID}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeLineNumber
+
+    + capturedInformationDFFUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers/Journal Lines/Descriptive Flexfields
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines/{JeLineNumber}/child/journalLineDFF
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeLineNumber
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines/{JeLineNumber}/child/journalLineDFF/{journalLineDFFUniqID}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeLineNumber
+
+    + journalLineDFFUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Batches/Journal Headers/Journal Lines/Global Descriptive Flexfields
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines/{JeLineNumber}/child/journalLineGDF
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeLineNumber
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalBatches/{JeBatchId}/child/journalHeaders/{JeHeaderId}/child/journalLines/{JeLineNumber}/child/journalLineGDF/{journalLineGDFUniqID}
+
++ Parameters
+
+    + JeBatchId
+
+    + JeHeaderId
+
+    + JeLineNumber
+
+    + journalLineGDFUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Categories List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/journalCategoriesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/{JeCategoryName}
+
++ Parameters
+
+    + JeCategoryName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Journal Sources List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/journalSourcesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/journalSourcesLOV/{JeSourceName}
+
++ Parameters
+
+    + JeSourceName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Ledger Balances
+
+## GET /fscmRestApi/resources/11.13.18.05/ledgerBalances
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/ledgerBalances/{ledgerBalancesUniqID}
+
++ Parameters
+
+    + ledgerBalancesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Ledgers List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/ledgersLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/ledgersLOV/{LedgerId}
+
++ Parameters
+
+    + LedgerId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Legal Entities List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/legalEntitiesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/legalEntitiesLOV/{LegalEntityId}
+
++ Parameters
+
+    + LegalEntityId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Legal Jurisdictions List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/legalJurisdictionsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/legalJurisdictionsLOV/{JurisdictionId}
+
++ Parameters
+
+    + JurisdictionId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Legal Reporting Units List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/legalReportingUnitsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/legalReportingUnitsLOV/{LegalReportingUnitId}
+
++ Parameters
+
+    + LegalReportingUnitId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Output Tax Classifications List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/outputTaxClassificationsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/outputTaxClassificationsLOV/{outputTaxClassificationsLOVUniqID}
+
++ Parameters
+
+    + outputTaxClassificationsLOVUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Party Fiscal Classifications
+
+## /fscmRestApi/resources/11.13.18.05/partyFiscalClassifications
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/partyFiscalClassifications/{ClassificationTypeId}
+
++ Parameters
+
+    + ClassificationTypeId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Party Fiscal Classifications/Tax Regime Associations
+
+## /fscmRestApi/resources/11.13.18.05/partyFiscalClassifications/{ClassificationTypeId}/child/fiscalClassificationTypeTaxRegimeAssociations
+
++ Parameters
+
+    + ClassificationTypeId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/partyFiscalClassifications/{ClassificationTypeId}/child/fiscalClassificationTypeTaxRegimeAssociations/{ClassificationTypeCode}
+
++ Parameters
+
+    + ClassificationTypeId
+
+    + ClassificationTypeCode
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Party Tax Profiles
+
+## GET /fscmRestApi/resources/11.13.18.05/partyTaxProfiles
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/partyTaxProfiles/{PartyTaxProfileId}
+
++ Parameters
+
+    + PartyTaxProfileId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Calendar Types
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesCalendarTypes
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesCalendarTypes/{payablesCalendarTypesUniqID}
+
++ Parameters
+
+    + payablesCalendarTypesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Calendar Types/Payables Calendar Periods
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesCalendarTypes/{payablesCalendarTypesUniqID}/child/payablesCalendarPeriods
+
++ Parameters
+
+    + payablesCalendarTypesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesCalendarTypes/{payablesCalendarTypesUniqID}/child/payablesCalendarPeriods/{payablesCalendarPeriodsUniqID}
+
++ Parameters
+
+    + payablesCalendarTypesUniqID
+
+    + payablesCalendarPeriodsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Distribution Sets
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesDistributionSets
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesDistributionSets/{distributionSetId}
+
++ Parameters
+
+    + distributionSetId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Distribution Sets/Payables Distribution Set Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesDistributionSets/{distributionSetId}/child/payablesDistributionSetsLines
+
++ Parameters
+
+    + distributionSetId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesDistributionSets/{distributionSetId}/child/payablesDistributionSetsLines/{payablesDistributionSetsLinesUniqID}
+
++ Parameters
+
+    + distributionSetId
+
+    + payablesDistributionSetsLinesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Income Tax Regions
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxRegions
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesIncomeTaxRegions/{state}
+
++ Parameters
+
+    + state
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Invoice Holds
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceHolds
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesInvoiceHolds/{payablesInvoiceHoldsUniqID}
+
++ Parameters
+
+    + payablesInvoiceHoldsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Options
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesOptions
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesOptions/{businessUnitId}
+
++ Parameters
+
+    + businessUnitId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Payments
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}
+
++ Parameters
+
+    + CheckId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Payments/Payments Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/paymentDff
+
++ Parameters
+
+    + CheckId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/paymentDff/{CheckId2}
+
++ Parameters
+
+    + CheckId
+
+    + CheckId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Payments/Payments Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/paymentGdf
+
++ Parameters
+
+    + CheckId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/paymentGdf/{CheckId2}
+
++ Parameters
+
+    + CheckId
+
+    + CheckId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Payments/Related Invoices
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/relatedInvoices
+
++ Parameters
+
+    + CheckId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/relatedInvoices/{InvoicePaymentId}
+
++ Parameters
+
+    + CheckId
+
+    + InvoicePaymentId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables Payments/Related Invoices/Related Invoice Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/relatedInvoices/{InvoicePaymentId}/child/relatedInvoiceGdf
+
++ Parameters
+
+    + CheckId
+
+    + InvoicePaymentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/payablesPayments/{CheckId}/child/relatedInvoices/{InvoicePaymentId}/child/relatedInvoiceGdf/{InvoicePaymentId2}
+
++ Parameters
+
+    + CheckId
+
+    + InvoicePaymentId
+
+    + InvoicePaymentId2
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payables and Procurement Options
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesAndProcurementOptions
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesAndProcurementOptions/{businessUnitId}
+
++ Parameters
+
+    + businessUnitId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payee Bank Accounts List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payeeBankAccountsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payeeBankAccountsLOV/{AccountNumber}
+
++ Parameters
+
+    + AccountNumber
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Codes List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/paymentCodesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/paymentCodesLOV/{paymentCodesLOVUniqID}
+
++ Parameters
+
+    + paymentCodesLOVUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Methods List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/disbursementPaymentMethodsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/disbursementPaymentMethodsLOV/{PaymentMethodCode}
+
++ Parameters
+
+    + PaymentMethodCode
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Process Profiles List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/paymentProcessProfilesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/paymentProcessProfilesLOV/{PaymentProcessProfileId}
+
++ Parameters
+
+    + PaymentProcessProfileId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Process Requests
+
+## GET /fscmRestApi/resources/11.13.18.05/paymentProcessRequests
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/paymentProcessRequests/{PaymentProcessRequestId}
+
++ Parameters
+
+    + PaymentProcessRequestId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Terms
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms/{termsId}
+
++ Parameters
+
+    + termsId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Terms List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTermsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTermsLOV/{TermId}
+
++ Parameters
+
+    + TermId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Terms/Payment Terms Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms/{termsId}/child/payablesPaymentTermsLines
+
++ Parameters
+
+    + termsId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms/{termsId}/child/payablesPaymentTermsLines/{payablesPaymentTermsLinesUniqID}
+
++ Parameters
+
+    + termsId
+
+    + payablesPaymentTermsLinesUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Terms/Payment Terms Sets
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms/{termsId}/child/payablesPaymentTermsSets
+
++ Parameters
+
+    + termsId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms/{termsId}/child/payablesPaymentTermsSets/{payablesPaymentTermsSetsUniqID}
+
++ Parameters
+
+    + termsId
+
+    + payablesPaymentTermsSetsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Payment Terms/Payment Terms Translations
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms/{termsId}/child/payablesPaymentTermsTranslations
+
++ Parameters
+
+    + termsId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesPaymentTerms/{termsId}/child/payablesPaymentTermsTranslations/{payablesPaymentTermsTranslationsUniqID}
+
++ Parameters
+
+    + termsId
+
+    + payablesPaymentTermsTranslationsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Preferred Currencies List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/preferredCurrenciesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/preferredCurrenciesLOV/{CurrencyCode}
+
++ Parameters
+
+    + CurrencyCode
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Purchase to Pay Legal Entities List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/purchaseToPayLegalEntitiesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/purchaseToPayLegalEntitiesLOV/{LegalEntityId}
+
++ Parameters
+
+    + LegalEntityId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receipt Method Assignments
+
+## /fscmRestApi/resources/11.13.18.05/receiptMethodAssignments
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/receiptMethodAssignments/{CustomerReceiptMethodId}
+
++ Parameters
+
+    + CustomerReceiptMethodId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Adjustments
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesAdjustments
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesAdjustments/{AdjustmentId}
+
++ Parameters
+
+    + AdjustmentId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Business Units List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesBusinessUnitsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesBusinessUnitsLOV/{BusinessUnitId}
+
++ Parameters
+
+    + BusinessUnitId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Credit Memos
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesCreditMemos
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesCreditMemos/{CustomerTransactionId}
+
++ Parameters
+
+    + CustomerTransactionId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Credit Memos/Receivables Credit Memo Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesCreditMemos/{CustomerTransactionId}/child/receivablesCreditMemoLines
+
++ Parameters
+
+    + CustomerTransactionId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesCreditMemos/{CustomerTransactionId}/child/receivablesCreditMemoLines/{CustomerTransactionLineId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Attachments
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/attachments
+
++ Parameters
+
+    + CustomerTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/attachments/{AttachedDocumentId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + AttachedDocumentId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceDFF
+
++ Parameters
+
+    + CustomerTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceDFF/{CustomerTrxId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTrxId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Distributions
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceDistributions
+
++ Parameters
+
+    + CustomerTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceDistributions/{DistributionId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + DistributionId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Distributions/Receivables Invoice Distribution Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceDistributions/{DistributionId}/child/receivablesInvoiceDistributionDFF
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + DistributionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceDistributions/{DistributionId}/child/receivablesInvoiceDistributionDFF/{CustTrxLineGlDistId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + DistributionId
+
+    + CustTrxLineGlDistId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceGdf
+
++ Parameters
+
+   + CustomerTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceGdf/{CustomerTrxId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTrxId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Installments
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceInstallments
+
++ Parameters
+
+    + CustomerTransactionId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceInstallments/{InstallmentId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + InstallmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Installments/Receivables Invoice Installment Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceInstallments/{InstallmentId}/child/receivablesInvoiceInstallmentGDF
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + InstallmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceInstallments/{InstallmentId}/child/receivablesInvoiceInstallmentGDF/{PaymentScheduleId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + InstallmentId
+
+    + PaymentScheduleId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Installments/Receivables Invoice Installment Notes
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceInstallments/{InstallmentId}/child/receivablesInvoiceInstallmentNotes
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + InstallmentId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceInstallments/{InstallmentId}/child/receivablesInvoiceInstallmentNotes/{NoteId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + InstallmentId
+
+    + NoteId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Lines
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines
+
++ Parameters
+
+    + CustomerTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Lines/Receivables Invoice Attachments
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/attachments
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/attachments/{AttachedDocumentId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+    + AttachedDocumentId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Lines/Receivables Invoice Line Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineDFF
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineDFF/{CustomerTrxLineId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+    + CustomerTrxLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Lines/Receivables Invoice Line Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineGdf
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineGdf/{CustomerTrxLineId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+    + CustomerTrxLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Lines/Receivables Invoice Line Tax Lines
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineTaxLines
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineTaxLines/{CustomerTransactionLineId2}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+    + CustomerTransactionLineId2
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Lines/Receivables Invoice Line Transaction Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineTransactionDFF
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceLines/{CustomerTransactionLineId}/child/receivablesInvoiceLineTransactionDFF/{CustomerTrxLineId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTransactionLineId
+
+    + CustomerTrxLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Notes
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/notes
+
++ Parameters
+
+    + CustomerTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/notes/{NoteId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + NoteId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Invoices/Receivables Invoice Transaction Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceTransactionDFF
+
++ Parameters
+
+    + CustomerTransactionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/receivablesInvoices/{CustomerTransactionId}/child/receivablesInvoiceTransactionDFF/{CustomerTrxId}
+
++ Parameters
+
+    + CustomerTransactionId
+
+    + CustomerTrxId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Memo Lines List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/memoLinesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/memoLinesLOV/{MemoLineId}
+
++ Parameters
+
+    + MemoLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Payment Terms List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/paymentTermsLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/paymentTermsLOV/{PaymentTermsId}
+
++ Parameters
+
+    + PaymentTermsId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Transaction Sources List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/transactionSourcesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/transactionSourcesLOV/{TransactionSourceId}
+
++ Parameters
+
+    + TransactionSourceId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Receivables Transaction Types List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/transactionTypesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/transactionTypesLOV/{TransactionTypeId}
+
++ Parameters
+
+    + TransactionTypeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts/Performance Obligations
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations
+
++ Parameters
+
+    + CustomerContractHeaderId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts/Performance Obligations/Performance Obligation Series
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/performanceObligationSeries
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/performanceObligationSeries/{DevolvedPerfObligDtlId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + DevolvedPerfObligDtlId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts/Performance Obligations/Promised Details
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + PromisedDetailLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts/Performance Obligations/Promised Details/Satisfaction Events
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/satisfactionEvents
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + PromisedDetailLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/satisfactionEvents/{SatisfactionEventId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + PromisedDetailLineId
+
+    + SatisfactionEventId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts/Performance Obligations/Promised Details/Source Documents
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/sourceDocuments
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + PromisedDetailLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/sourceDocuments/{DocumentId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + PromisedDetailLineId
+
+    + DocumentId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts/Performance Obligations/Promised Details/Source Documents/Source Document Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/sourceDocuments/{DocumentId}/child/sourceDocumentLines
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + PromisedDetailLineId
+
+    + DocumentId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/sourceDocuments/{DocumentId}/child/sourceDocumentLines/{DocumentLineId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + DocumentId
+
+    + DocumentLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Revenue Contracts/Performance Obligations/Promised Details/Source Documents/Source Document Lines/Source Document Sublines
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/sourceDocuments/{DocumentId}/child/sourceDocumentLines/{DocumentLineId}/child/sourceDocumentSubLines
+
++ Parameters
+
+   + CustomerContractHeaderId
+
+   + PerformanceObligationId
+
+   + DocumentId
+
+   + DocumentLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/revenueContracts/{CustomerContractHeaderId}/child/performanceObligations/{PerformanceObligationId}/child/promisedDetails/{PromisedDetailLineId}/child/sourceDocuments/{DocumentId}/child/sourceDocumentLines/{DocumentLineId}/child/sourceDocumentSubLines/{DocumentSubLineId}
+
++ Parameters
+
+    + CustomerContractHeaderId
+
+    + PerformanceObligationId
+
+    + DocumentId
+
+    + DocumentLineId
+
+    + DocumentSubLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Salesperson Reference Accounts
+
+## /fscmRestApi/resources/11.13.18.05/salespersonReferenceAccounts
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/salespersonReferenceAccounts/{SalespersonId}
+
++ Parameters
+
+    + SalespersonId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Standard Receipts
+
+## /fscmRestApi/resources/11.13.18.05/standardReceipts
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}
+
++ Parameters
+
+    + StandardReceiptId
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Standard Receipts/Attachments
+
+## /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/attachments
+
++ Parameters
+
+    + StandardReceiptId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/attachments/{AttachedDocumentId}
+
++ Parameters
+
+    + StandardReceiptId
+
+    + AttachedDocumentId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Standard Receipts/Remittance References
+
+## /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/remittanceReferences
+
++ Parameters
+
+    + StandardReceiptId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/remittanceReferences/{RemittanceReferenceId}
+
++ Parameters
+
+    + StandardReceiptId
+
+    + RemittanceReferenceId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Standard Receipts/Standard Receipt Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/standardReceiptDFF
+
++ Parameters
+
+    + StandardReceiptId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/standardReceiptDFF/{CashReceiptId}
+
++ Parameters
+
+    + StandardReceiptId
+
+    + CashReceiptId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Standard Receipts/Standard Receipt Global Descriptive Flexfields
+
+## /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/standardReceiptGdf
+
++ Parameters
+
+    + StandardReceiptId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/standardReceipts/{StandardReceiptId}/child/standardReceiptGdf/{CashReceiptId}
+
++ Parameters
+
+    + StandardReceiptId
+
+    + CashReceiptId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Authority Profiles
+
+## GET /fscmRestApi/resources/11.13.18.05/taxAuthorityProfiles
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxAuthorityProfiles/{PartyTaxProfileId}
+
++ Parameters
+
+    + PartyTaxProfileId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Classifications
+
+## GET /fscmRestApi/resources/11.13.18.05/taxClassifications
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxClassifications/{taxClassificationsUniqID}
+
++ Parameters
+
+    + taxClassificationsUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Exemptions
+
+## /fscmRestApi/resources/11.13.18.05/taxExemptions
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/taxExemptions/{TaxExemptionId}
+
++ Parameters
+
+    + TaxExemptionId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Intended Uses
+
+## GET /fscmRestApi/resources/11.13.18.05/taxIntendedUses
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxIntendedUses/{ClassificationName}
+
++ Parameters
+
+    + ClassificationName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Intended Uses List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/taxIntendedUsesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxIntendedUsesLOV/{ClassificationId}
+
++ Parameters
+
+    + ClassificationId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Partner Registrations
+
+## /fscmRestApi/resources/11.13.18.05/taxPartnerRegistrations
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxPartnerRegistrations/{OperationName}
+
++ Parameters
+
+    + OperationName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Product Categories
+
+## GET /fscmRestApi/resources/11.13.18.05/taxProductCategories
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxProductCategories/{ClassificationName}
+
++ Parameters
+
+    + ClassificationName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Rates List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/taxRatesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxRatesLOV/{TaxRateId}
+
++ Parameters
+
+    + TaxRateId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Regimes List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/taxRegimesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxRegimesLOV/{TaxRegimeId}
+
++ Parameters
+
+    + TaxRegimeId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Registrations
+
+## /fscmRestApi/resources/11.13.18.05/taxRegistrations
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/taxRegistrations/{RegistrationId}
+
++ Parameters
+
+    + RegistrationId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Reporting Entities
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesTaxReportingEntities
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesTaxReportingEntities/{taxEntityId}
+
++ Parameters
+
+    + taxEntityId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Reporting Entities List of Values
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesTaxReportingEntitiesLOV
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesTaxReportingEntitiesLOV/{EntityId}
+
++ Parameters
+
+    + EntityId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Reporting Entities/Tax Reporting Entity Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesTaxReportingEntities/{taxEntityId}/child/payablesTaxReportingEntityLine
+
++ Parameters
+
+    + taxEntityId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/payablesTaxReportingEntities/{taxEntityId}/child/payablesTaxReportingEntityLine/{payablesTaxReportingEntityLineUniqID}
+
++ Parameters
+
+    + taxEntityId
+
+    + payablesTaxReportingEntityLineUniqID
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Tax Transaction Business Categories
+
+## GET /fscmRestApi/resources/11.13.18.05/taxTransactionBusinessCategories
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/taxTransactionBusinessCategories/{ClassificationName}
+
++ Parameters
+
+    + ClassificationName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Taxpayer Identifiers
+
+## /fscmRestApi/resources/11.13.18.05/taxPayerIdentifiers
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /fscmRestApi/resources/11.13.18.05/taxPayerIdentifiers/{PartyTaxpayerIdntfsId}
+
++ Parameters
+
+    + PartyTaxpayerIdntfsId
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PATCH
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Transaction Tax Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/transactionTaxLines
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/transactionTaxLines/{TaxLineId}
+
++ Parameters
+
+    + TaxLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Withholding Tax Lines
+
+## GET /fscmRestApi/resources/11.13.18.05/withholdingTaxLines
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/withholdingTaxLines/{TaxLineId}
+
++ Parameters
+
+    + TaxLineId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Workflow Users
+
+## GET /fscmRestApi/resources/11.13.18.05/workflowUsers
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /fscmRestApi/resources/11.13.18.05/workflowUsers/{PersonId}
+
++ Parameters
+
+    + PersonId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
